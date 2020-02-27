@@ -1,7 +1,147 @@
+body{
+    width: 900px;
+    margin: auto;
+}
+header{
+    height: 69px;
+
+}
+hr{
+    /* border-top: 4px dashed black; */
+    background-image:url("../img/hr-img.png");
+    content: none;
+
+
+}
 header h2{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Dancing Script', ;
+font-family: 'Patrick Hand', ;
+    float: right;
+    margin-right: 79%;
+    margin-top: -3px;
 }
 header h3{
     font-style: unset;
     font-weight: 100;
+    float: right;
+    margin-right: 79%;
+    margin-top: -27px;
+    font-size: 9px;
+}
+#social{
+    float: right;
+    margin-top: -47px;
+
+}
+#van-pic{
+    float: left;
+    height: 77px;
+
+}
+button{
+    float: right;
+    margin-top: -71px;
+    width: 119px;
+    height: 40px;
+    background-color: #B37259;
+    border: 0px;
+
+}
+footer{
+    clear: both;
+}
+#hr-footer{
+    clear: both;
+    border-top: 4px  black;
+    margin-top: 50px;
+
+}
+#logo-footer{
+    margin-left: 47%;
+    margin-top: -20px;
+}
+h3{
+    color: gray;
+}
+#footer-h3{
+    font-weight: 100;
+    font-size: 16px;
+}
+h4{
+    text-align: center;
+    font-weight: 100;
+    color: gray;
+}
+header h2{
+    font-family: ‘Courier New’, Courier, monospace;
+  }
+  header h3{
+    font-style: unset;
+    font-weight: 100;
+  }
+  h1{
+    margin-bottom: -8px;
+  }
+  #date{
+    float: left;
+    color: gray;
+    font-variant-caps: all-petite-caps;
+    margin-top: 0px;
+    margin-left: 5px;
+  }
+  #para{
+    float: right;
+    color: gray;
+    font-variant-caps: all-petite-caps;
+    margin-top: -42px;
+
+    margin-right: 0px;}
+  body{
+    width: 900px;
+    margin: auto;
+  }
+  #print{
+    float: left;
+    margin-left: 53em;
+    margin-top: -38px;
+  }
+  article{
+    padding: 20px 5px;
+    color: rgb(105, 103, 103);
+    font-family: serif;
+    font-size: 15px;
+  }
+  #list{
+      z-index: -1;
+      position: absolute;
+
+  }
+.z-index{
+    height: 325px;
+      z-index: 2;
+  }
+  .left{
+float: left;
+margin-top: 27px;
+
+display: table-column;
+margin-left: 65px;
+
+
+  }
+  .right{
+float: right;
+margin-right: 150px;
+margin-top: 27px;
+
+  }
+ul{
+display: unset;
+    clear: both;
+}
+li{
+    list-style-type: none;
+
+    padding-bottom: 11px;
+
 }
