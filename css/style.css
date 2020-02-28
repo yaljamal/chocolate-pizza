@@ -75,73 +75,76 @@ h4{
 header h2{
     font-family: ‘Courier New’, Courier, monospace;
   }
-  header h3{
+header h3{
     font-style: unset;
     font-weight: 100;
   }
-  h1{
+h1{
     margin-bottom: -8px;
   }
-  #date{
+#date{
     float: left;
     color: gray;
     font-variant-caps: all-petite-caps;
     margin-top: 0px;
     margin-left: 5px;
   }
-  #para{
+#para{
     float: right;
     color: gray;
     font-variant-caps: all-petite-caps;
     margin-top: -42px;
 
     margin-right: 0px;}
-  body{
+body{
     width: 900px;
     margin: auto;
   }
-  #print{
+#print{
     float: left;
     margin-left: 53em;
     margin-top: -38px;
   }
-  article{
+article{
     padding: 20px 5px;
     color: rgb(105, 103, 103);
     font-family: serif;
     font-size: 15px;
   }
-  #list{
-      z-index: -1;
-      position: absolute;
-
+#list{
+   z-index: -1;
+   position: absolute;
   }
 .z-index{
     height: 325px;
       z-index: 2;
+      
   }
-  .left{
-float: left;
-margin-top: 27px;
 
-display: table-column;
-margin-left: 65px;
-
-
+.left{
+    float: left;
+    margin-top: 27px;
+    display: table-column;
+    margin-left: 65px;
   }
-  .right{
-float: right;
-margin-right: 150px;
-margin-top: 27px;
-
-  }
+.right{
+    float: right;
+    margin-right: 150px;
+    margin-top: 27px;
+}
 ul{
-display: unset;
+    display: unset;
     clear: both;
 }
 li{
     list-style-type: none;
-
     padding-bottom: 11px;
 
 }
+
+/* input:checked{
+    text-decoration: line-through;
+} */
+input[type=checkbox]:checked + label {
+    text-decoration: line-through;
+  }
